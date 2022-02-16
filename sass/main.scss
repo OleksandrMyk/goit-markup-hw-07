@@ -1,0 +1,15 @@
+@import './base/common';
+
+@import './layout/header';
+@import './layout/header/navigation';
+@import './layout/header/hero';
+
+@import './components/conteiner';
+@import './components/about';
+@import './components/work';
+@import './components/personal';
+@import './components/content';
+@import './components/footer';
+@import './components/menu';
+
+@import './utils/vars';
