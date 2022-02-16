@@ -599,6 +599,7 @@ body {
 
 .footer-subscribe-block {
     display: flex;
+    position: relative;
 }
 
 .footer-subscribe-input {
@@ -622,13 +623,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-button {
-    position: relative;
-}
-
 .footer-subscribe-button {
-    width: 200px;
-    height: 50px;
     margin-left: 12px;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -819,6 +814,7 @@ body {
 }
 
 .modal {
+    padding: 40px;
     width: 528px;
     min-height: 581px;
     background: #ffffff;
@@ -871,7 +867,6 @@ body {
 /* Форма модального вікна */
 
 .modal-form {
-    margin: 40px;
 }
 
 .modal-form-title {
@@ -896,11 +891,15 @@ body {
     margin-bottom: 20px;
 }
 
-.form-field.agreement {
-    flex-direction: row;
+.agreement {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin: 0;
+}
 
-    margin-bottom: 30px;
+.form-field.agreement {
+    align-items: center;
 }
 
 .form-field.agreement input[type='checkbox'] {
@@ -923,6 +922,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 30px;
 }
 
 .modal-icon-checkbox {
@@ -936,8 +936,12 @@ body {
 
 .checkbox:checked + .modal-icon-checkbox {
     fill: var(--accent-color);
-    border: 0;
+    border: none;
     border-radius: 2px;
+}
+
+.checkbox:focus + .modal-icon-checkbox {
+    border-color: var(--accent-color);
 }
 
 .checkbox {
@@ -1016,9 +1020,6 @@ body {
 }
 
 .modal-form-button {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
