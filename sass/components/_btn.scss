@@ -28,9 +28,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    @extend %disp-flex;
     letter-spacing: 0.03em;
     color: #212121;
     background: #f5f4fa;
@@ -52,9 +50,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
-        display: flex;
-        align-items: center;
-        text-align: center;
+        @extend %disp-flex;
         letter-spacing: 0.03em;
         color: #212121;
         background: #2196f3;
