@@ -23,23 +23,6 @@
     align-items: center;
 }
 
-.header-item-mail-tel {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-item-mail-tel:hover,
-.header-item-mail-tel:focus {
-    color: var(--accent-color);
-}
-
 .header-social-icon {
     fill: currentColor;
     margin-right: 10px;
