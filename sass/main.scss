@@ -3,16 +3,17 @@
 @import './base/reset';
 @import './base/all-file';
 @import './base/current';
+@import './base/color';
 
-@import './components/header';
-@import './components/navigation';
-@import './components/hero';
-@import './components/about';
-@import './components/work';
-@import './components/personal';
-@import './components/content';
-@import './components/footer';
-@import './components/menu';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/work';
+@import './layout/personal';
+@import './layout/content';
+@import './layout/footer';
+@import './layout/menu';
 
 @import './utils/modal';
 @import './utils/vars';

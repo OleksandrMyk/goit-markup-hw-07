@@ -75,6 +75,10 @@ body {
   border-radius: 2px;
 }
 
+:root {
+  --accent-color: #2196f3;
+}
+
 .header-conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1189,10 +1193,6 @@ body {
 .modal-form-button:hover,
 .modal-form-button:focus {
   background: #188ce8;
-}
-
-:root {
-  --accent-color: #2196f3;
 }
 
 .visually-hidden {
