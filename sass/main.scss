@@ -1,10 +1,12 @@
 @import './base/common';
+@import './base/conteiner';
+@import './base/reset';
+@import './base/all-file';
+@import './base/current';
 
-@import './layout/header';
-@import './layout/header/navigation';
-@import './layout/header/hero';
-
-@import './components/conteiner';
+@import './components/header';
+@import './components/navigation';
+@import './components/hero';
 @import './components/about';
 @import './components/work';
 @import './components/personal';
@@ -12,4 +14,6 @@
 @import './components/footer';
 @import './components/menu';
 
+@import './utils/modal';
 @import './utils/vars';
+@import './utils/visually-hidden';

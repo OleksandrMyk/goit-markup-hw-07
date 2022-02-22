@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -45,11 +45,6 @@ body {
     list-style: none;
 }
 
-.personal-title-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -63,15 +58,12 @@ body {
     margin: 0 auto;
 }
 
-.hero-title {
-    padding: 200px 0;
-}
+/* header section */
 
+/*
 .header-conteiner {
     display: flex;
 }
-
-/* header section */
 
 .header {
     padding-top: 24px;
@@ -117,7 +109,7 @@ body {
 }
 
 /* navigation section */
-
+/*
 .navigation {
     display: flex;
     align-items: center;
@@ -202,6 +194,10 @@ body {
 }
 
 /* hero section */
+/*
+.hero-title {
+    padding: 200px 0;
+}
 
 .hero {
     max-width: 1600px;
@@ -257,7 +253,7 @@ body {
 }
 
 /* about section */
-
+/*
 .about-icons {
 }
 
@@ -347,7 +343,7 @@ body {
 }
 
 /* --- work-section --- */
-
+/*
 .work-section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -376,6 +372,11 @@ body {
 }
 
 /* --- personal-section --- */
+/*
+.personal-title-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .personal {
     padding-top: 94px;
@@ -429,7 +430,7 @@ body {
 }
 
 /* --- content-section --- */
-
+/*
 .content-section {
 }
 
@@ -490,7 +491,7 @@ body {
 }
 
 /* --- footer-section --- */
-
+/*
 .address {
     font-style: normal;
 }
@@ -651,7 +652,7 @@ body {
 }
 
 /* --- menu-section 2 stor --- */
-
+/*
 .btn-list {
     font-family: inherit;
     cursor: pointer;
@@ -799,7 +800,7 @@ body {
 }
 
 /* --- galery --- */
-
+/*
 .backdrop {
     width: 100vw;
     height: 100vh;
@@ -865,7 +866,7 @@ body {
 }
 
 /* Форма модального вікна */
-
+/*
 .modal-form {
 }
 
