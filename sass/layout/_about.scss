@@ -14,9 +14,7 @@
         color: #fff;
     }
     &-social-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend %disp-a-j;
         height: 92px;
         background: #f5f4fa;
         border-radius: 4px;
