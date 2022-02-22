@@ -1,29 +1,29 @@
-.header-conteiner {
-    display: flex;
-}
-
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
     background: #ffffff;
     border: 1px solid #ececec;
-}
 
-.header-item {
-    display: flex;
-}
+    &-item {
+        display: flex;
+    }
 
-.header-item + .header-item {
-    margin-left: 50px;
-}
+    &-item + &-item {
+        margin-left: 50px;
+    }
 
-.header-list {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-}
+    &-list {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+    }
 
-.header-social-icon {
-    fill: currentColor;
-    margin-right: 10px;
+    &-social-icon {
+        fill: currentColor;
+        margin-right: 10px;
+    }
+
+    &-conteiner {
+        display: flex;
+    }
 }

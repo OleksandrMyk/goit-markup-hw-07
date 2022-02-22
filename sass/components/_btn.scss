@@ -70,12 +70,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-}
+    &-btn-item {
+        border-radius: 4px;
+    }
 
-.menu-btn-item {
-    border-radius: 4px;
-}
-
-.menu-btn-item + .menu-btn-item {
-    margin-left: 8px;
+    &-btn-item + &-btn-item {
+        margin-left: 8px;
+    }
 }
