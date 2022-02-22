@@ -5,6 +5,8 @@
 @import './base/current';
 @import './base/color';
 
+@import './components/modal';
+
 @import './layout/header';
 @import './layout/navigation';
 @import './layout/hero';
@@ -15,6 +17,5 @@
 @import './layout/footer';
 @import './layout/menu';
 
-@import './utils/modal';
 @import './utils/vars';
 @import './utils/visually-hidden';
