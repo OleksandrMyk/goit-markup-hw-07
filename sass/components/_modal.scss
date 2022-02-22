@@ -225,18 +225,18 @@
     margin-right: 7px;
 }
 
-.checkbox:checked + .modal-icon-checkbox {
-    fill: var(--accent-color);
-    border: none;
-    border-radius: 2px;
-}
-
-.checkbox:focus + .modal-icon-checkbox {
-    border-color: var(--accent-color);
-}
-
 .checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+
+    &:checked + .modal-icon-checkbox {
+        fill: var(--accent-color);
+        border: none;
+        border-radius: 2px;
+    }
+
+    &:focus + .modal-icon-checkbox {
+        border-color: var(--accent-color);
+    }
 }
